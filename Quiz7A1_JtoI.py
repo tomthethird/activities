@@ -1,6 +1,7 @@
 f = open("WORDS.txt", "w")
 f.write("WELL, THJS JS A WORD BY JTSELF. YOU COULD STRETCH THJS TO BE A SENTENCE")
 f.close()
+
 f = open("WORDS.TXT", "rt")
 print(f.read())
 f.close()
